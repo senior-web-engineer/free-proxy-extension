@@ -1,0 +1,27 @@
+{
+   "background": {
+      "scripts": [ "res/jquery-2.2.0.min.js", "res/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon-disabled.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "FreeProxies"
+   },
+   "content_scripts": [ {
+      "js": [ "res/timer.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "default_locale": "en",
+   "description": "Free proxies around the world",
+   "icons": {
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0",
+   "name": "FreeProxies",
+   "permissions": [ "proxy", "webRequest", "webRequestBlocking", "\u003Call_urls\u003E", "background" ],
+   "short_name": "FreeProxies",
+   "version": "2017.12"
+}

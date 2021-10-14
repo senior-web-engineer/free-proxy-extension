@@ -1,0 +1,41 @@
+{
+   "browser_action_active_title": {
+      "message": "FreeProxies"
+   },
+   "browser_action_inactive_title": {
+      "message": "FreeProxies"
+   },
+   "country_name_GB": {
+      "message": "United Kingdom"
+   },
+   "country_name_NL": {
+      "message": "Netherlands"
+   },
+   "country_name_SG": {
+      "message": "Singapore"
+   },
+   "country_name_UK": {
+      "message": "United Kingdom"
+   },
+   "country_name_US": {
+      "message": "United States"
+   },
+   "country_name_US_TEST": {
+      "message": "US (test)"
+   },
+   "error_unable_change_proxy_settings": {
+      "message": "FreeProxies can not change proxy setting because they are protected by another proxy manager"
+   },
+   "extension_description": {
+      "message": "Free proxies"
+   },
+   "popup_enable": {
+      "message": "Enable"
+   },
+   "popup_protection_disabled": {
+      "message": "Disabled"
+   },
+   "popup_protection_disabled_description": {
+      "message": "Your IP is not protected"
+   }
+}
